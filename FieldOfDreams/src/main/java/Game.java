@@ -10,7 +10,25 @@ public class Game {
 	private Integer attemptsLeft = 10;
 
 	public Boolean play() {
-		
+		String enteredWord = ReadUtil.getEnteredWord();
+		recordWord(enteredWord);
+		System.out.println(showGuessedLetters());
+		while (unguessedLettersLeft > 0 && attemptsLeft > 0) {
+			System.out.println("You have " + attemptsLeft + " attempts left");
+			Character enteredLetter = ReadUtil.getNextLetter();
+			switch (guessLetter(enteredLetter)) {
+				case SUCCESS:
+					System.out.println("Congratulations! You guessed letter " + enteredLetter);
+					break;
+				case ALREADY_GUESSED:
+					System.out.println("You already guessed letter " + enteredLetter);
+					break;
+				case FAIL:
+					System.out.println("There is no " + enteredLetter + " in the hidden word");
+					break;
+			}
+			System.out.println(showGuessedLetters() + "\n");
+		}
 		return unguessedLettersLeft == 0;
 	}
 
