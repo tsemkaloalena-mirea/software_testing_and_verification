@@ -41,7 +41,11 @@ public class Game {
 	public String showGuessedLetters() {
 		StringBuilder stringBuilder = new StringBuilder();
 		for (Letter letter : this.word) {
-			stringBuilder.append("_");
+			if (letter.getGuessed()) {
+				stringBuilder.append(letter.getLetter());
+			} else {
+				stringBuilder.append("_");
+			}
 		}
 		return stringBuilder.toString();
 	}
