@@ -1,10 +1,30 @@
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.MockedStatic;
+import org.mockito.Mockito;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class GameTest {
 	private Game game = new Game();
+	private MockedStatic<ReadUtil> readUtility;
+
+	@BeforeEach
+	public void registerUtility() {
+		readUtility = Mockito.mockStatic(ReadUtil.class);
+	}
+
+	@AfterEach
+	public void deregisterUtility() {
+		readUtility.close();
+	}
 
 	@Test
 	public void whenWordIsRecorded_thanLettersAreCheckedAsNotGuessed() {
@@ -162,16 +182,68 @@ public class GameTest {
 
 	@Test
 	public void whenAttemptsAreNotFinished_and_unguessedLettersLeftIsZero_thenTrueIsReturned() {
+		List<Character> characters = new ArrayList<>();
+		characters.add('c');
+		characters.add('s');
+		characters.add('f');
+		characters.add('d');
+		characters.add('a');
+		characters.add('n');
+		characters.add('e');
+		characters.add('r');
+		readUtility.when(ReadUtil::getEnteredWord).thenReturn("scanner");
+		readUtility.when(ReadUtil::getNextLetter).then(invocationOnMock -> {
+			Character character = characters.get(0);
+			characters.remove(0);
+			return character;
+		});
 
+		Boolean result = game.play();
+
+		assertTrue(result);
 	}
 
 	@Test
 	public void whenAttemptsAreFinished_and_unguessedLettersLeftIsZero_thenTrueIsReturned() {
+		List<Character> characters = new ArrayList<>();
+		characters.add('c');
+		characters.add('s');
+		for (int i = 0; i < 9; i++) {
+			characters.add('f');
+		}
+		characters.add('a');
+		characters.add('n');
+		characters.add('e');
+		characters.add('r');
+		readUtility.when(ReadUtil::getEnteredWord).thenReturn("scanner");
+		readUtility.when(ReadUtil::getNextLetter).then(invocationOnMock -> {
+			Character character = characters.get(0);
+			characters.remove(0);
+			return character;
+		});
 
+		Boolean result = game.play();
+
+		assertTrue(result);
 	}
 
 	@Test
 	public void whenAttemptsAreFinished_and_unguessedLettersLeftIsMoreThenZero_thenFalseIsReturned() {
+		List<Character> characters = new ArrayList<>();
+		characters.add('c');
+		characters.add('s');
+		for (int i = 0; i < 10; i++) {
+			characters.add('f');
+		}
+		readUtility.when(ReadUtil::getEnteredWord).thenReturn("scanner");
+		readUtility.when(ReadUtil::getNextLetter).then(invocationOnMock -> {
+			Character character = characters.get(0);
+			characters.remove(0);
+			return character;
+		});
 
+		Boolean result = game.play();
+
+		assertFalse(result);
 	}
 }
