@@ -112,4 +112,24 @@ public class GameTest {
 		assertEquals(attemptsLeft, game.getAttemptsLeft());
 		assertEquals(unguessedLettersLeft, game.getUnguessedLettersLeft());
 	}
+
+	@Test
+	public void whenLetterIsPresent_thenShowGuessedLettersWithNewOne() {
+
+	}
+
+	@Test
+	public void whenDoubleLetterIsPresent_thenShowWithBothLetters() {
+
+	}
+
+	@Test
+	public void whenLetterIsAbsent_thenShowResultIsNotChanged() {
+
+	}
+
+	@Test
+	public void whenLetterIsAlreadyGuessed_thenShowResultIsNotChanged() {
+
+	}
 }
