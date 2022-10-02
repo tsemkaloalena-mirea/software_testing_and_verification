@@ -18,6 +18,7 @@ public class GameTest {
 			assertFalse(letter.getGuessed());
 			k++;
 		}
+		assertEquals(enteredWord.length(), game.getUnguessedLettersLeft());
 	}
 
 	@Test
@@ -32,6 +33,7 @@ public class GameTest {
 			assertFalse(letter.getGuessed());
 			k++;
 		}
+		assertEquals(enteredWord.length(), game.getUnguessedLettersLeft());
 	}
 
 	@Test
@@ -46,5 +48,26 @@ public class GameTest {
 			assertFalse(letter.getGuessed());
 			k++;
 		}
+		assertEquals(enteredWord.length(), game.getUnguessedLettersLeft());
+	}
+
+	@Test
+	public void whenLetterIsPresent_thanSuccessStatusReturned_and_attemptsNumberIsNotChanged_and_lettersQuantityDecreasedByOne() {
+
+	}
+
+	@Test
+	public void whenDoubleLetterIsPresent_thanSuccessStatusReturned_and_attemptsNumberIsNotChanged_and_lettersQuantityDecreasedByTwo() {
+
+	}
+
+	@Test
+	public void whenLetterIsAbsent_thanFailStatusReturned_and_attemptsNumberIsSmaller_and_lettersQuantityIsNotChanged() {
+
+	}
+
+	@Test
+	public void whenLetterIsAlreadyGuessed_thenAlreadyGuessedStatusReturned_and_attemptsNumberIsNotChanged_and_lettersQuantityIsNotChanged() {
+
 	}
 }

@@ -3,9 +3,11 @@ import lombok.Getter;
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
 public class Game {
-	@Getter
 	private final List<Letter> word = new ArrayList<>();
+	private Integer unguessedLettersLeft;
+	private Integer attemptsLeft = 10;
 
 	public void play() {
 
@@ -15,5 +17,8 @@ public class Game {
 		for (Character character : enteredWord.toLowerCase().toCharArray()) {
 			this.word.add(new Letter(character));
 		}
+		unguessedLettersLeft = this.word.size();
 	}
+
+	
 }
