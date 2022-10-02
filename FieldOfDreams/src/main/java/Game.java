@@ -20,5 +20,9 @@ public class Game {
 		unguessedLettersLeft = this.word.size();
 	}
 
-	
+	public GuessedStatus guessLetter(Character enteredLetter) {
+		GuessedStatus status = GuessedStatus.FAIL;
+
+		return status;
+	}
 }
