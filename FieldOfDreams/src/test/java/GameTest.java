@@ -115,21 +115,48 @@ public class GameTest {
 
 	@Test
 	public void whenLetterIsPresent_thenShowGuessedLettersWithNewOne() {
+		String enteredWord = "scanner";
+		game.recordWord(enteredWord);
 
+		game.guessLetter('a');
+		game.guessLetter('r');
+		String result = game.showGuessedLetters();
+
+		assertEquals("__a___r", result);
 	}
 
 	@Test
 	public void whenDoubleLetterIsPresent_thenShowWithBothLetters() {
+		String enteredWord = "scanner";
+		game.recordWord(enteredWord);
 
+		game.guessLetter('n');
+		String result = game.showGuessedLetters();
+
+		assertEquals("___nn__", result);
 	}
 
 	@Test
 	public void whenLetterIsAbsent_thenShowResultIsNotChanged() {
+		String enteredWord = "scanner";
+		game.recordWord(enteredWord);
 
+		game.guessLetter('d');
+		String result = game.showGuessedLetters();
+
+		assertEquals("_______", result);
 	}
 
 	@Test
 	public void whenLetterIsAlreadyGuessed_thenShowResultIsNotChanged() {
+		String enteredWord = "scanner";
+		game.recordWord(enteredWord);
 
+		game.guessLetter('a');
+		String resultBefore = game.showGuessedLetters();
+		game.guessLetter('a');
+		String resultAfter = game.showGuessedLetters();
+
+		assertEquals(resultBefore, resultAfter);
 	}
 }
