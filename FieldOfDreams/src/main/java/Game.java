@@ -37,4 +37,12 @@ public class Game {
 		}
 		return status;
 	}
+
+	public String showGuessedLetters() {
+		StringBuilder stringBuilder = new StringBuilder();
+		for (Letter letter : this.word) {
+			stringBuilder.append("_");
+		}
+		return stringBuilder.toString();
+	}
 }
