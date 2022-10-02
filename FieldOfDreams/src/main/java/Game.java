@@ -9,8 +9,9 @@ public class Game {
 	private Integer unguessedLettersLeft;
 	private Integer attemptsLeft = 10;
 
-	public void play() {
-
+	public Boolean play() {
+		
+		return unguessedLettersLeft == 0;
 	}
 
 	public void recordWord(String enteredWord) {

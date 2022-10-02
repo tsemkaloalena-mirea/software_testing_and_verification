@@ -159,4 +159,19 @@ public class GameTest {
 
 		assertEquals(resultBefore, resultAfter);
 	}
+
+	@Test
+	public void whenAttemptsAreNotFinished_and_unguessedLettersLeftIsZero_thenTrueIsReturned() {
+
+	}
+
+	@Test
+	public void whenAttemptsAreFinished_and_unguessedLettersLeftIsZero_thenTrueIsReturned() {
+
+	}
+
+	@Test
+	public void whenAttemptsAreFinished_and_unguessedLettersLeftIsMoreThenZero_thenFalseIsReturned() {
+
+	}
 }
