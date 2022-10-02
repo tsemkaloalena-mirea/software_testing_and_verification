@@ -7,8 +7,12 @@ public class Game {
 	@Getter
 	private final List<Letter> word = new ArrayList<>();
 
+	public void play() {
+
+	}
+
 	public void recordWord(String enteredWord) {
-		for (Character character : enteredWord.toCharArray()) {
+		for (Character character : enteredWord.toLowerCase().toCharArray()) {
 			this.word.add(new Letter(character));
 		}
 	}
