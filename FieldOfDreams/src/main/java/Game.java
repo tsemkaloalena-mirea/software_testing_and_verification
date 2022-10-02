@@ -22,7 +22,19 @@ public class Game {
 
 	public GuessedStatus guessLetter(Character enteredLetter) {
 		GuessedStatus status = GuessedStatus.FAIL;
-
+		for (Letter letter : word) {
+			if (enteredLetter.equals(letter.getLetter())) {
+				if (letter.getGuessed()) {
+					return GuessedStatus.ALREADY_GUESSED;
+				}
+				letter.checkGuessed();
+				unguessedLettersLeft--;
+				status = GuessedStatus.SUCCESS;
+			}
+		}
+		if (GuessedStatus.FAIL.equals(status)) {
+			attemptsLeft--;
+		}
 		return status;
 	}
 }
