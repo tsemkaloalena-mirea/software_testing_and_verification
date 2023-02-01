@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.8011290278"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261303125"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8011537963"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261550579"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.8010800579"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260812731"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.8010579167"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260591898"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8010828472"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260840046"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8010720255"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260731366"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 38">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.8011566667"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage37.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261577662"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.8011179282"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261190509"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.8011455671"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261465509"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.801052419"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260534259"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="44859.9260350694"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\System32\calc.exe NotOpenApp&quot; started."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The process ID is 25596."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8011263194"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261275694"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8011150694"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261163542"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 39">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8011593519"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261604861"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="241"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.8011010648"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="692"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261023032"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (83, 34) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.8011232986"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261246875"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8010885185"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260897454"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8011205787"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261217824"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8011041204"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261051736"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.8011344907"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261356945"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.801074537"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260756597"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{75B1B9B7-1152-48D1-9FA1-C608A47C715B}"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8010490972"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260505324"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.8011122338"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261134491"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 40">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.8011622106"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.926163206"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.80104625"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260472685"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8011429282"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261440278"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8010429861"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260441898"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8011096181"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261107639"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8011372917"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261384028"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.801055162"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260562963"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.801106794"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261080324"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8010664236"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260676968"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8010771296"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260783681"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8011481713"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.926149456"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="datetime" type="D" value="44859.8011318287"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="655"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261330093"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Минус&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.8010638079"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260648032"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+					<Prp name="object top" type="I" value="482"/>
+					<Prp name="datetime" type="D" value="44859.8010609375"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="524"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="567"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260620833"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Восемь&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.8010856481"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260868634"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.8011511343"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261523264"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+					<Prp name="object top" type="I" value="658"/>
+					<Prp name="datetime" type="D" value="44859.801069375"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="click point y" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="743"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9260704167"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Числовая_панель&quot;).UIAObject(&quot;Два&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="515"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="datetime" type="D" value="44859.8011401157"/>
+					<Prp name="object left" type="I" value="445"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="586"/>
+					<Prp name="click point y" type="I" value="788"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="831"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44859.9261413079"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Калькулятор&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Стандартные_операторы&quot;).UIAObject(&quot;Равно&quot;)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

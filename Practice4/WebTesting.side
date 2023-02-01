@@ -1,0 +1,224 @@
+{
+  "id": "30447dc1-30ab-45b0-a937-49d40e41b6d0",
+  "version": "2.0",
+  "name": "WebTesting",
+  "url": "https://www.erarta.com/",
+  "tests": [{
+    "id": "7d2e3b26-ce48-44cf-9da9-e707d36450a7",
+    "name": "Erarta",
+    "commands": [{
+      "id": "d23274f9-af5f-4f17-b494-d4d5daf15f28",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.erarta.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8eb1d82f-743d-4ee6-8a3c-6ae26a1daf9d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e64d9a8-230d-45f4-8a71-e9be3fd7aefa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=музей",
+      "targets": [
+        ["linkText=музей", "linkText"],
+        ["css=.has-dropdown", "css:finder"],
+        ["xpath=//a[contains(text(),'музей')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'музей')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f639b470-d3f3-4d1b-91ea-ef96346bff14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=коллекция",
+      "targets": [
+        ["linkText=коллекция", "linkText"],
+        ["css=.header__submenu-item:nth-child(5) > .header__submenu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'коллекция')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ru/museum/collection')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'коллекция')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1b94e24-4513-4aaf-b7ba-0c4037d159a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=collection_hint_search",
+      "targets": [
+        ["id=collection_hint_search", "id"],
+        ["name=filter[Q]", "name"],
+        ["css=#collection_hint_search", "css:finder"],
+        ["xpath=//input[@id='collection_hint_search']", "xpath:attributes"],
+        ["xpath=//div[@id='collection_hint_search_wrap']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b990ea9d-1770-4e35-93d6-87d83a6a3427",
+      "comment": "",
+      "command": "type",
+      "target": "id=collection_hint_search",
+      "targets": [
+        ["id=collection_hint_search", "id"],
+        ["name=filter[Q]", "name"],
+        ["css=#collection_hint_search", "css:finder"],
+        ["xpath=//input[@id='collection_hint_search']", "xpath:attributes"],
+        ["xpath=//div[@id='collection_hint_search_wrap']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "биполярной активности"
+    }, {
+      "id": "7cdcf0b2-a212-43b3-85bf-afca3c87e79b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-filters__search-form-submit > svg",
+      "targets": [
+        ["css=.b-filters__search-form-submit > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec84dac-9d2d-4f9d-9d2f-9f77b30ba51f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Модель биполярной активности",
+      "targets": [
+        ["linkText=Модель биполярной активности", "linkText"],
+        ["css=.b-collection__item-name", "css:finder"],
+        ["xpath=//a[contains(text(),'Модель биполярной активности')]", "xpath:link"],
+        ["xpath=//ul[@id='collection_list']/li/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ru/museum/collection/works/detail/Y121025001/')])[2]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Модель биполярной активности')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d48dd3e-8935-460f-9ac0-5000f738a61b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=афиша",
+      "targets": [
+        ["linkText=афиша", "linkText"],
+        ["css=.header__menu-item:nth-child(2) > .header__menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'афиша')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ru/calendar/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'афиша')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71a3322a-df45-4443-96d0-7c7883523cdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=сегодня",
+      "targets": [
+        ["linkText=сегодня", "linkText"],
+        ["css=.date-item:nth-child(2) > .b-filters__link", "css:finder"],
+        ["xpath=//a[contains(text(),'сегодня')]", "xpath:link"],
+        ["xpath=//ul[@id='events_dates_filter']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ru/calendar/today/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41cd2cf7-1357-4c93-8aca-9ee2c58efe16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,76)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77fb24ed-373f-47a3-9504-e1e49f2c20b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Джанмария Потенца. Piccola Bellezza",
+      "targets": [
+        ["linkText=Джанмария Потенца. Piccola Bellezza", "linkText"],
+        ["css=#bx_3184300606_744377 .page-content__item-name", "css:finder"],
+        ["xpath=//a[contains(text(),'Джанмария Потенца. Piccola Bellezza')]", "xpath:link"],
+        ["xpath=//li[@id='bx_3184300606_744377']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ru/calendar/exhibitions/detail/120822/')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Джанмария Потенца. Piccola Bellezza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73be4278-316f-4041-9b91-d2d51851bb2d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=магазин",
+      "targets": [
+        ["linkText=магазин", "linkText"],
+        ["css=.header__menu-item:nth-child(4) > .header__menu-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'магазин')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://shop.erarta.com')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9188",
+      "windowTimeout": 2000
+    }, {
+      "id": "35054411-6e7a-4e50-9b40-b228a0814e0c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9188}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7c53407-1384-4fe2-86ef-469904b4928a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.first-level:nth-child(1) > .text-uppercase b",
+      "targets": [
+        ["css=.first-level:nth-child(1) > .text-uppercase b", "css:finder"],
+        ["xpath=//div[@id='headercontainer_5']/div/nav/div/ul/li/a/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f8363ab-7460-426f-978a-b52ccf794c02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-filter:nth-child(4) .btn",
+      "targets": [
+        ["css=.catalog-filter:nth-child(4) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='MainFilter']/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da3e3196-3edb-4181-bd4f-9a481670dd77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Aбстракция",
+      "targets": [
+        ["linkText=Aбстракция", "linkText"],
+        ["css=.open > .dropdown-menu > .dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//div[@id='MainFilter']/div/div[4]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aбстракция')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1eb32a9-7ece-4454-af19-a858d004b56c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7d2e3b26-ce48-44cf-9da9-e707d36450a7"]
+  }],
+  "urls": ["https://www.erarta.com/"],
+  "plugins": []
+}
